@@ -84,14 +84,14 @@ signals:
 private:
     explicit YubiKey();
 
-    void findValidKeys(const QMutexLocker& locker);
-
     static YubiKey* m_instance;
 
     QTimer m_interactionTimer;
     bool m_initialized = false;
+    bool m_findingKeys = false;
     QString m_error;
 
+    // Prevents multiple simultaneous operations on hardware keys
     static QMutex s_interfaceMutex;
 
     KeyMap m_usbKeys;
