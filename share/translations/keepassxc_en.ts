@@ -713,6 +713,10 @@
         <source>Invalid placeholder: %1</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Entry has invalid TOTP settings</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AutoTypeAssociationsModel</name>
@@ -9252,6 +9256,16 @@ This option is deprecated, use --set-key-file instead.</source>
         <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Invalid Step</source>
+        <comment>TOTP</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Invalid Digits</source>
+        <comment>TOTP</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>QtIOCompressor</name>
@@ -10294,6 +10308,10 @@ Example: JBSWY3DPEHPK3PXP</source>
     </message>
     <message>
         <source>Are you sure you want to delete TOTP settings for this entry?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Error: secret key is invalid</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
