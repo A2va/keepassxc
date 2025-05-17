@@ -99,6 +99,7 @@ DatabaseSettingsDialog::~DatabaseSettingsDialog() = default;
 
 void DatabaseSettingsDialog::load(const QSharedPointer<Database>& db)
 {
+    setCurrentPage(0);
     setHeadline(tr("Database Settings: %1").arg(db->canonicalFilePath()));
 
     m_generalWidget->loadSettings(db);
