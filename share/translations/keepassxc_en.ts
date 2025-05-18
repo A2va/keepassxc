@@ -7123,14 +7123,6 @@ The following data is missing:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Confirm Delete Wordlist</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Do you really want to delete the wordlist &quot;%1&quot;?</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Failed to delete wordlist</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7181,6 +7173,18 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Excluded characters: &quot;0&quot;, &quot;1&quot;, &quot;l&quot;, &quot;I&quot;, &quot;O&quot;, &quot;|&quot;, &quot;﹒&quot;, &quot;B&quot;, &quot;8&quot;, &quot;G&quot;, &quot;6&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Confirm Remove Wordlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Do you really want to remove the wordlist &quot;%1&quot;?</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9198,10 +9202,6 @@ This option is deprecated, use --set-key-file instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Cannot generate valid passphrases because the wordlist is too short</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Encrypted files are not supported.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9246,6 +9246,10 @@ This option is deprecated, use --set-key-file instead.</source>
     </message>
     <message>
         <source>Tags</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Warning: the chosen wordlist is smaller than the minimum recommended size!</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
